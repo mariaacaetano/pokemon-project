@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+        <link rel="icon" href="imagens/pokeballicon.ico" type="image/x-icon"/>        
+        <title>Bulbasaur | Wiki</title>
+      
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap"/>
+
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/estilowiki.css">
+		<link rel="stylesheet" href="../css/scrollbar.css">
+
+        <script>
+            function abrirPagina(url) {
+                window.location.replace(url);
+            }
+        </script>
+	</head>
+    <body>
+        <header>
+            <div href="boxPage"><img src="../imagens/pokeball.png" alt="pokebola" class="logo" onclick="abrirPagina('../index.html')"></div>
+            <h1>#001 Bulbasaur</h1>
+            <button id="botao-alterar-tema" onclick="alternarTema()"><img src="../imagens/sun.png" alt="imagem do sol" class="imagem-botao" /></button>
+        </header>
+        <main>
+            <section class=wikipage>
+                <div class="typesections">
+                        <div class="text">
+                            <h1>Fisiologia</h1>
+                            <p>Bulbasaur é uma criatura reptiliana lembra um sapo ou um dinossauro jovem com pernas. Seus olhos são de um vermelho brilhante, mas a característica mais notável deste Pokémon é o bulbo de cebola sobre as suas costas. Este bulbo tem uma relação simbiótica com os Pokémons, com crescimento de uma semente plantada em suas costas por sua mãe ao nascer. Ao contrário dos cogumelos parasitas tochukaso crescendo na parte de trás do Paras, que acabou por assumir o seu corpo como ele evolui para Parasect, o bulbo de Bulbasaur compartilha uma relação simbiótica que é benéfico para ambos. Isso permite que Bulbasaur obtenha um impulso maior da energia do sol durante o dia e o bulbo permanece crescente e forte à noite. O bulbo também contém muitas sementes a partir do qual extrai os nutrientes. Embora eles normalmente caminham sobre quatro patas, um Bulbasaur pode se levantar sobre as patas traseiras. Quando evolui para Ivysaur, o bulbo se torna um grande botão de flor, tornando quase impossível para um aumento em suas patas traseiras.</p>
+                        </div>
+                        <div class="text">
+                            <h1>Habilidades</h1>
+                            <p>Bulbasaur tem uma variedade de habilidades do tipo Grama concedidas pelo bulbo crescendo em suas costas. Pós, cheiros, pétalas e sementes podem vir da ponta do bulbo, e vinhas e folhas podem vir da base. Ao manipulá-los em movimentos como <strong>Semente Sanguessuga</strong>, <strong>Chicote de Vinha</strong>, <strong>Folha Navalha</strong>, <strong>Dança de Pétalas</strong>, <strong>Bomba de Semente</strong> e <strong>Doce Incenso</strong>, Bulbasaur tem um arsenal muito à sua disposição.</p>
+                        </div>
+                        <div class="text">
+                            <h3>Outras Informações</h3>
+                            <p>Você pode encontrar mais informações sobre esse pokémon clicando <a href="https://pokemon.fandom.com/wiki/Bulbasaur" target="blank">aqui</a></p>
+                        </div>
+                </div>
+            </section>
+            <section class="wikipage">
+                    <img class="pokemons" src="../imagens/bulbasaur.gif" alt="Imagem Animada de Bulbasaur em 8-bit" height="200px">
+            </section>
+        </main>
+        <footer>
+            <div class="footersections">
+                <div>
+                    <img src="../imagens/iflogo.png">
+                </div>
+                <div class="text">
+                    <h2>Projeto Pokémon</h2>
+                    <p>Este é meu segundo projeto em desenvolvimento web, e o foco dele é aprender ferramentas de controle de eventos DOM e aplicação do modelo de caixa de maneira prática. O desafio do projeto é criar uma página web que exiba uma coleção de imagens, uma galeria que abra para páginas wiki que interajam entre si. <strong>Este é um projeto desenvolvido por Dev em Dobro.</strong></p>
+                </div>
+            <div></div>
+
+        </footer>
+        <script src="../js/wiki.js"></script>
+    </body>
+</html>

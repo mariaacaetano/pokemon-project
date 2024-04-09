@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+        <link rel="icon" href="imagens/pokeballicon.ico" type="image/x-icon"/>        
+        <title>Venosaur | Wiki</title>
+      
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap"/>
+
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/estilowiki.css">
+		<link rel="stylesheet" href="../css/scrollbar.css">
+
+        <script>
+            function abrirPagina(url) {
+                window.location.replace(url);
+            }
+        </script>
+	</head>
+    <body>
+        <header>
+            <div href="boxPage"><img src="../imagens/pokeball.png" alt="pokebola" class="logo" onclick="abrirPagina('../index.html')"></div>
+            <h1>#003 Venusaur</h1>
+            <button id="botao-alterar-tema" onclick="alternarTema()"><img src="../imagens/sun.png" alt="imagem do sol" class="imagem-botao" /></button>
+        </header>
+        <main>
+            <section class=wikipage>
+                <div class="typesections">
+                        <div class="text">
+                            <h1>Fisiologia</h1>
+                            <p>Venusaur é um Pokémon quadrúpede com pele verde acidentada, e azulada. Ele tem olhos pequenos e circulares vermelhos, dois dentes pontiagudos em sua mandíbula superior, e quatro dentes pontiagudos em sua mandíbula inferior. Tem três dedos com garras em cada pé. Possui um grande coqueiro em suas costas.</p>
+                        </div>
+                        <div class="text">
+                            <h1>Habilidades e Comportamento</h1>
+                            <p>A flor libera um perfume suave que atrai os Pokémon. Este perfume se torna mais forte depois de um dia chuvoso. No anime, Venusaur demonstra a capacidade de manipular a natureza e levar cerimônias de evolução para Bulbasaur e Ivysaur. Mostram ser bastante tímidos, já que este Pokémon é raramente encontrado na natureza e também pode ser visto e pastagens.</p>
+                        </div>
+                        <div class="text">
+                            <h3>Outras Informações</h3>
+                            <p>Você pode encontrar mais informações sobre esse pokémon clicando <a href="https://pokedex-br.fandom.com/pt-br/wiki/Venusaur" target:"black">aqui</a></p>
+                        </div>
+                </div>
+            </section>
+            <section class=wikipage>
+                <img class="pokemons" src="../imagens/venusaur.gif" alt="Imagem Animada de Venusaur em 8-bit" height="200px">
+            </section>
+        </main>
+        <footer>
+            <div class="footersections">
+                <div>
+                    <img src="../imagens/iflogo.png">
+                </div>
+                <div class="text">
+                    <h2>Projeto Pokémon</h2>
+                    <p>Este é meu segundo projeto em desenvolvimento web, e o foco dele é aprender ferramentas de controle de eventos DOM e aplicação do modelo de caixa de maneira prática. O desafio do projeto é criar uma página web que exiba uma coleção de imagens, uma galeria que abra para páginas wiki que interajam entre si. <strong>Este é um projeto desenvolvido por Dev em Dobro.</strong></p>
+                </div>
+            <div></div>
+
+        </footer>
+        <script src="../js/wiki.js"></script>
+    </body>
+</html>

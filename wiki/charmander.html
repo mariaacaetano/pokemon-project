@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+        <link rel="icon" href="imagens/pokeballicon.ico" type="image/x-icon"/>        
+        <title>Charmander | Wiki</title>
+      
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap"/>
+
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/estilowiki.css">
+		<link rel="stylesheet" href="../css/scrollbar.css">
+
+        <script>
+            function abrirPagina(url) {
+                window.location.replace(url);
+            }
+        </script>
+	</head>
+    <body>
+        <header>
+            <div href="boxPage"><img src="../imagens/pokeball.png" alt="pokebola" class="logo" onclick="abrirPagina('../index.html')"></div>
+            <h1>#004 Charmander</h1>
+            <button id="botao-alterar-tema" onclick="alternarTema()"><img src="../imagens/sun.png" alt="imagem do sol" class="imagem-botao" /></button>
+        </header>
+        <main>
+            <section class=wikipage>
+                <div class="typesections">
+                        <div class="text">
+                            <h1>Fisiologia</h1>
+                            <p>O Charmander é um Pokémon bípede, reptiliano, com um corpo essencialmente cor de laranja e olhos azuis. A parte inferior do corpo, do peito para baixo, e as solas dos pés são de cor creme. Tem duas pequenas presas visíveis no maxilar superior e duas presas mais pequenas no maxilar inferior. Um fogo arde na ponta da cauda delgada deste Pokémon e arde aí desde o nascimento do Charmander. A chama pode ser usada como uma indicação da saúde e do estado de espírito do Charmander, ardendo intensamente quando o Pokémon está forte, fracamente quando está exausto, vacilante quando está feliz e ardente quando está enfurecido. Diz-se que o Charmander morre se a sua chama se apagar. No entanto, se o Pokémon for saudável, a chama continuará a arder mesmo que fique um pouco molhado e diz-se que faz vapor à chuva.</p>                      
+                        </div>
+                        <div class="text">
+                            <h1>Comportamento</h1>
+                            <p>O Charmander é, sem dúvida, o mais bem comportado da sua linha evolutiva. Os seus sentimentos e emoções podem ser lidos pela chama na ponta da sua cauda. A chama acende-se em fúria quando o Charmander está zangado. A chama pisca e torna-se pequena e fraca se o Charmander estiver doente ou ferido. Se rosnar, significa que está zangado ou que está prestes a atacar.</p>
+                        </div>
+                        <div class="text">
+                            <h3>Outras Informações</h3>
+                            <p>Você pode encontrar mais informações sobre esse pokémon clicando <a href="https://pokemon.fandom.com/wiki/Charmander" target:"black">aqui</a></p>
+                        </div>
+                </div>
+            </section>
+            <section class=wikipage>
+                <img class="pokemons" src="../imagens/charmander.gif" alt="Imagem Animada de Charmander em 8-bit" height="200px">
+            </section>
+        </main>
+        <footer>
+            <div class="footersections">
+                <div>
+                    <img src="../imagens/iflogo.png">
+                </div>
+                <div class="text">
+                    <h2>Projeto Pokémon</h2>
+                    <p>Este é meu segundo projeto em desenvolvimento web, e o foco dele é aprender ferramentas de controle de eventos DOM e aplicação do modelo de caixa de maneira prática. O desafio do projeto é criar uma página web que exiba uma coleção de imagens, uma galeria que abra para páginas wiki que interajam entre si. <strong>Este é um projeto desenvolvido por Dev em Dobro.</strong></p>
+                </div>
+            <div></div>
+
+        </footer>
+        <script src="../js/wiki.js"></script>
+    </body>
+</html>

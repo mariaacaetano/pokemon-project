@@ -1,0 +1,101 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	max-width: 1280px;
+	margin:0 auto;
+	background-color: #5e5b5bad;
+	color: #333333;
+}
+
+body.modo-escuro {
+	background-color: #212121;
+	color: #f5f5f5;
+}
+
+body.modo-escuro-wiki {
+	background-color: #212121;
+	color: #f5f5f5;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+}
+
+header .logo,
+header .imagem-botao {
+	width: 30px;
+	transition: 0.2s ease-in-out;
+}
+
+header #botao-alterar-tema {
+	background: none;
+	border: none;
+}
+
+main,
+footer{
+	display: flex;
+}
+
+
+header .logo:hover,
+header .imagem-botao:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.wikipage {
+	display:flex;
+	align-items: center;
+}
+
+.pokemons {
+    height: 200px;
+    border-radius: 10px;
+    margin: auto;
+	margin: 20px 20px 20px 20px;
+    align-items: center;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.pokemons:hover {
+    transform: scale(1.1);
+}
+
+.typesections{
+	background-color:  #d8e3ec;
+	width: 980px;
+	border-radius: 10px;
+	margin: 20px 20px 20px 20px;
+}
+
+.footersections img {
+	margin: 20px 20px 20px 20px;
+	height: 100px;
+}
+.footersections{
+	display: flex;
+	background-color:  #d8e3ec;
+	width: 1280px;
+	border-radius: 10px;
+	margin: 20px 20px 20px 20px;
+}
+
+.modo-escuro .footersections{
+	display: flex;
+	background-color:  #a8a8a8;
+	width: 1280px;
+	border-radius: 10px;
+	margin: 20px 20px 20px 20px;
+}
+
+.modo-escuro .typesections{
+	background-color:  #a8a8a8;
+	border-radius: 10px;
+	margin: 20px 20px 20px 20px;
+}
+
+.text {
+	margin: 20px 20px 20px 20px;
+}
